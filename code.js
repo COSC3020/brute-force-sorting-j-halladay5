@@ -49,7 +49,5 @@ function swap(arr, a, b) {
     return arr;
 }
 
-var test = [4,3,2,1];
-console.log(bruteForce(test));
 
 
