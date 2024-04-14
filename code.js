@@ -1,7 +1,8 @@
 function permutationSort(list) {
     var l = 0;
     var r = list.length - 1;
-    
+
+    if(checkSorted(list) == true) return 1;
     return permute(list, l, r); 
 }
 
