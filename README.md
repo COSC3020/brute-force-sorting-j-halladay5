@@ -29,7 +29,7 @@ function. For our time complexity, the permute function will be called in the wo
 complexity will be O(n * n!).
 
 A best case scenario would be either the size of the list being 1, or the list already being sorted. In the list length = 1 case, it will simpley return 1 as that is the only permutation. If the list is sorted,
-it will call the checkSorted and the for loop would iterate n times, so it would be O(n) It will then return the permutations tried, which is only 1. $\ O(1)$ or $\ O(n)$.
+it will call the checkSorted and the for loop would iterate n times, so it would be O(n) It will then return the permutations tried, which is only 1. For both cases, the asymptotic complexity would be O(n).
 
 A worst case scenario would be a list that is which the correct start value is at the end, and the rest of the list is sorted, but shifted over to the left. For example, [2,3,4,1], [2,3,4,5,1] and in a general
 form, [2 ......n,1], where n is the last value in the sorted list. In this case we go through every permutations and every swap possible. The for loop will need go to the last possible swap, so it will try every
